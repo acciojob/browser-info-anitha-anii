@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 
 <html>
 
@@ -8,9 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+<!--     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
 
+</html> --> 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Browser Information</title>
+</head>
+<body>
+  <div id="browser-info"></div>
+
+  <script>
+    // Get the browser name and version
+    var browserName = navigator.appName;
+    var version = navigator.appVersion;
+
+    // Display the browser information
+    var browserInfoDiv = document.getElementById('browser-info');
+    browserInfoDiv.innerHTML = "You are using " + browserName + " version " + version;
+  </script>
+</body>
 </html>
